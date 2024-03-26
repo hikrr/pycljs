@@ -1,0 +1,8 @@
+.cpcache/
+.lsp/
+.shadow-cljs/
+node_modules/
+.clj-kondo/.cache
+/py/static/js/*
+/py/static/css/*
+/pycljs/

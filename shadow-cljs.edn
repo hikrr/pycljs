@@ -1,0 +1,13 @@
+{:deps true
+ :builds {:app {:target :browser
+                :modules {:shared {:entries []}
+                          :main {:entries [frontend.core]
+                                 :init-fn frontend.core/init
+                                 :depends-on #{:shared}}
+                     ;;      :sw {:entries [frontend.sw]
+                     ;;           :depends-on #{:shared}
+                     ;;           :web-worker true}
+                          }
+                :output-dir "py/static/js"}}
+ :nrepl {:port 40000
+         :middleware []}}
