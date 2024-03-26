@@ -1,6 +1,6 @@
 # pycljs
 
-- This is just a personal preferred choices for fullstack development aiming for quick POC.
+- This is just personal preferred choices for fullstack development aiming for quick POC.
 
 # How to run this repo
 
