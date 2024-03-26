@@ -1,8 +1,10 @@
 # pycljs
 
-- This is just personal preferred choices for fullstack development aiming for quick POC.
+- This repo is just a personal preferred choice for full-stack development aiming for quick POC.
 
 # How to run this repo
+
+(Assume you are at the root of this repo)
 
 ## Backend
 
@@ -22,6 +24,6 @@ npm install
 yarn dev
 ```
 
-- Then go to browser and open `localhost:5000`.
-- Hotcode reloading is support when cljs files are modified.
+- Then go to the browser and open `localhost:5000`.
+- Hotcode reloading is supported when cljs files are modified.
 - Use [NextUI](https://nextui.org/) and Tailwind CSS for styling.
